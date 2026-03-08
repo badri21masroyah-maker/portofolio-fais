@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profil & Roadmap Fais</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth; /* smooth scroll */
+        }
+
+        body {
+            background-color:white;
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #2980b9;
+            text-align: center;
+        }
+
+        h2, h3 {
+            color: #2980b9;
+            margin-top: 30px;
+        }
+
+        p {
+            color: #333;
+        }
+
+        ul {
+            background-color: #f2f2f2;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .foto-profil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 20px auto;
+            border: 4px solid #2980b9;
+            transition: all 0.3s ease;
+        }
+
+        .foto-profil:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #2980b9;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 10px 0;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #219150;
+            transform: scale(1.05);
+        }
+
+        #notif {
+            display: none;
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #219150;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            font-family: Arial;
+            opacity: 0;
+        }
+
+        .section {
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+    </style>
+
+</head>
+<body id="top">
+
+    <img src="foto.jpg.jpeg.jpeg" alt="Foto Fais" class="foto-profil">
+
+    <h1>Halo, Saya Fais 🚀</h1>
+    <p>Saya sedang belajar menjadi Software Engineer dan Mobile Developer.</p>
+
+    <h2>Target Saya:</h2>
+    <ul>
+        <li>Kerja kantoran sebagai developer</li>
+        <li>Freelance website</li>
+        <li>Bisa bikin aplikasi sendiri</li>
+    </ul>
+
+    <h2>Kontak Saya:</h2>
+    <a href="https://instagram.com/faiz_hzh" target="_blank" class="btn">Instagram Saya</a>
+
+    <div id="notif">Terima kasih sudah mengunjungi profil Fais 🚀</div>
+
+    <h2>Roadmap Belajar Fais 🚀</h2>
+
+    <h3>Bulan 1 — HTML & CSS</h3>
+    <ul>
+        <li><a href="#proyek1" class="btn">Minggu 1: Proyek 1</a></li>
+        <li><a href="#proyek2" class="btn">Minggu 2: Proyek 2</a></li>
+        <li><a href="#proyek3" class="btn">Minggu 3: Proyek 3</a></li>
+    </ul>
+
+    <h3>Bulan 2 — JavaScript & Interaktivitas</h3>
+    <ul>
+        <li><a href="#proyek4" class="btn">Minggu 1: Proyek 4</a></li>
+        <li><a href="#proyek5" class="btn">Minggu 2: Proyek 5</a></li>
+    </ul>
+
+    <h3>Bulan 3 — Web Modern & Mobile Basics</h3>
+    <ul>
+        <li><a href="#proyek6" class="btn">Minggu 1: Proyek 6</a></li>
+        <li><a href="#proyek7" class="btn">Minggu 3: Proyek 7</a></li>
+    </ul>
+
+    <div id="proyek1" class="section">
+        <h2>Proyek 1: Profil Sederhana</h2>
+        <p>Buat halaman profil sederhana dengan HTML dasar.</p>
+        <a href="#top" class="btn">Back to Top</a>
+    </div>
+
+    <div id="proyek2" class="section">
+        <h2>Proyek 2: Styling Profil</h2>
+        <p>Tambahkan CSS dasar: warna, font, margin, padding, border.</p>
+        <a href="#top" class="btn">Back to Top</a>
+    </div>
+
+    <div id="proyek3" class="section">
+        <h2>Proyek 3: Foto & Tombol Interaktif</h2>
+        <p>Buat foto profil bulat, hover effect, tombol interaktif.</p>
+        <a href="#top" class="btn">Back to Top</a>
+    </div>
+
+    <div id="proyek4" class="section">
+        <h2>Proyek 4: Tombol Klik</h2>
+        <p>JavaScript dasar: variable, function, conditional, loop. Tambahkan tombol klik.</p>
+        <a href="#top" class="btn">Back to Top</a>
+    </div>
+
+    <div id="proyek5" class="section">
+        <h2>Proyek 5: Notifikasi & Hover Animasi</h2>
+        <p>DOM manipulation, event listener, animasi notifikasi toast.</p>
+        <a href="#top" class="btn">Back to Top</a>
+    </div>
+
+    <div id="proyek6" class="section">
+        <h2>Proyek 6: Profil React</h2>
+        <p>Belajar React.js: komponen, props, state. Buat profil interaktif.</p>
+        <a href="#top" class="btn">Back to Top</a>
+    </div>
+
+    <div id="proyek7" class="section">
+        <h2>Proyek 7: Mini Aplikasi Mobile</h2>
+        <p>Belajar Flutter / React Native. Buat mini aplikasi sederhana (to-do list).</p>
+        <a href="#top" class="btn">Back to Top</a>
+    </div>
+
+    <script>
+        const tombol = document.querySelector(".btn");
+        const notif = document.getElementById("notif");
+
+        tombol.addEventListener("click", function() {
+            notif.style.display = "block";
+            notif.style.opacity = 1;
+
+            setTimeout(function() {
+                notif.style.transition = "opacity 0.5s ease";
+                notif.style.opacity = 0;
+                setTimeout(()=> { notif.style.display = "none"; }, 500);
+            }, 2000);
+        });
+    </script>
+
+</body>
+</html>
